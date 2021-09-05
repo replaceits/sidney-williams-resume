@@ -1,0 +1,201 @@
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  background: #FFFFFF;
+
+  height: 595px;
+  width: 420px;
+
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+}
+
+.title {
+  flex: 1 0 100%;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  background: #EBC3C1;
+
+  color: #FFFFFF;
+}
+
+.resume-container {
+  display: flex;
+  width: 100%;
+}
+
+.avatar-wrapper {
+  flex: 0 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 100px;
+
+  margin-right: 25px;
+
+  background: #D2A3A9;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+
+  background: url('https://s3.us-east-1.amazonaws.com/sidw.me/169083762_4677654238927948_4145867105741153905_n.jpeg');
+  background-position: top;
+  background-size: cover;
+  
+  border-radius: 100px;
+  border: 1px solid #E6DCE5;
+}
+
+.contact {
+  flex: 1 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 5px;
+
+  h5 {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+.side-bar {
+  flex: 0 0 100px;
+
+  width: 100px;
+  height: 495px;
+
+  background: #EBC3C1;
+
+  color: #FFFFFF;
+
+  h4 {
+    margin: 20px 0;
+    padding: 5px 0;
+
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 0;
+    padding: 0 10px;
+
+    list-style-type: none;
+
+    li {
+      margin: 0;
+      margin-bottom: 5px;
+      padding: 0;
+    }
+  }
+}
+
+.main-content {
+  flex: 1 1 auto;
+  text-align: left;
+
+  padding-left: 25px;
+}
+
+.work {
+  margin-bottom: 25px;
+  i {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+}
+
+.work-who {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 5px;
+
+  h4, h5 {
+    margin: 0;
+    margin-left: 10px;
+
+    padding: 0;
+  }
+}
+
+.work-who-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-avatar {
+  display: inline-block;
+
+  height: 25px;
+  width: 25px;
+  
+  
+  &.osmosis {
+    background: url("https://media-exp1.licdn.com/dms/image/C4E0BAQGENxgXOKI-fQ/company-logo_100_100/0/1596484413572?e=1639008000&v=beta&t=EPjwEeMwNZaN6POiPT8W-MOrHafiKmmhEoWeUwkYAik");
+    background-position: center;
+    background-size: cover;
+  }
+
+  &.ecpi {
+    background: url("https://media-exp1.licdn.com/dms/image/C4E0BAQEwUaUEzW2HuA/company-logo_100_100/0/1554491032684?e=1639008000&v=beta&t=D5lsT9JT-7l-dTCwgK3UjB3JpH6HKfludSlamlJR6j4");
+    background-position: center;
+    background-size: cover;
+  }
+
+  &.cllc {
+    background: url("https://cleanlineslawncare.s3.amazonaws.com/oldimages/logo.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.work-title {
+  margin-left: 35px;
+}
+
+.work-length {
+  margin-left: 35px;
+
+  font-size: 8px;
+}
+
+.work-info {
+
+}
