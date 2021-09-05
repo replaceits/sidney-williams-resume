@@ -28,7 +28,7 @@
 
   width: 100%;
 
-  background: #EBC3C1;
+  background: #D2A3A9;
 
   color: #FFFFFF;
 }
@@ -50,19 +50,29 @@
 
   margin-right: 25px;
 
-  background: #D2A3A9;
+  background: #EBC3C1;
 }
 
 .avatar {
-  width: 75px;
-  height: 75px;
+  position: relative;
 
-  background: url('https://s3.us-east-1.amazonaws.com/sidw.me/169083762_4677654238927948_4145867105741153905_n.jpeg');
-  background-position: top;
-  background-size: cover;
-  
-  border-radius: 100px;
-  border: 1px solid #E6DCE5;
+  width: 50px;
+  height: 50px;
+
+  background: #AF6E4E;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 25px;
+    height: 25px;
+
+    background: #ECAD8F;
+  }
 }
 
 .contact {
@@ -95,7 +105,7 @@
   width: 100px;
   height: 495px;
 
-  background: #EBC3C1;
+  background: #D2A3A9;
 
   color: #FFFFFF;
 
@@ -130,6 +140,8 @@
   text-align: left;
 
   padding-left: 25px;
+  padding-right: 25px;
+
 }
 
 .work {
@@ -147,7 +159,7 @@
 
   margin-bottom: 5px;
 
-  h4, h5 {
+  h4, h5, h6 {
     margin: 0;
     margin-left: 10px;
 
@@ -191,6 +203,17 @@
 }
 
 .work-length {
+  margin-top: 2px;
+  margin-left: 35px;
+  margin-bottom: 2px;
+
+  font-size: 8px;
+
+  font-style: italic;
+}
+
+.work-desc {
+  margin-top: 2px;
   margin-left: 35px;
 
   font-size: 8px;
