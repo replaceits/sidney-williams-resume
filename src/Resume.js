@@ -108,6 +108,8 @@ class Resume extends React.Component {
                 <p className='work-length'>2014 – 2016 | 2 yrs, some college</p>
                 <p className='work-desc'>Focus on database programming.</p>
               </div>
+
+              <div className='website'>www.sidw.me</div>
             </div>
           </div>
         </div>
