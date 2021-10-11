@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {GoLocation} from 'react-icons/go';
-import {FaPhoneAlt, FaHtml5, FaLess, FaJira, FaFigma, FaGithub, FaTrello} from 'react-icons/fa';
+import {FaPhoneAlt, FaHtml5, FaLess, FaJira, FaFigma, FaGithub, FaTrello, FaEnvelope, FaLaptopCode} from 'react-icons/fa';
 import {SiJavascript, SiApachecordova} from 'react-icons/si';
 import {DiCss3, DiJqueryLogo} from 'react-icons/di';
 import {CgTemplate} from 'react-icons/cg';
@@ -18,9 +18,9 @@ class Resume extends React.Component {
             <div className='avatar-wrapper'></div>
             <div className='contact'>
               <h1>Sidney Williams</h1>
-              <h5>Full Stack Developer</h5>
+              <h5><GoLocation /> Charlottesville, VA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FaLaptopCode /> Full Stack Developer</h5>
               <div className='contact-info'>
-                <h5><GoLocation /> Charlottesville, VA</h5>
+                <h5><FaEnvelope /> sid@sidw.me</h5>
                 <h5><FaPhoneAlt /> (434) 989-4077</h5>
               </div>
             </div>
@@ -76,7 +76,7 @@ class Resume extends React.Component {
                 </div>
                 <h6 className='work-title'>Full Stack Developer</h6>
                 <p className='work-length'>Jan 2019 – Jun 2021 | 2 yrs 6 mos</p>
-                <p className='work-desc'>Development and maintence of backend APIs. Improvements to video processing and streaming technologies. Lead in vulnerability triaging and resolution. Mobile app development. Upgrades to payment processor.</p>
+                <p className='work-desc'>Development and maintenance of backend APIs. Improvements to video processing and streaming technologies. Lead in vulnerability triaging and resolution. Mobile app development. Upgrades to payment processor.</p>
               
                 <h6 className='work-title'>Frontend Developer</h6>
                 <p className='work-length'>Mar 2018 – Jan 2019 | 11 mos</p>
